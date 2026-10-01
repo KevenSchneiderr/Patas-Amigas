@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="card1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0288d1"/>
+      <stop offset="100%" stop-color="#01579b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#card1Grad)"/>
+  <circle cx="400" cy="240" r="140" fill="#ffffff" opacity="0.15"/>
+  <!-- Medical / Rescue Symbol -->
+  <g transform="translate(400, 240)">
+    <circle cx="0" cy="0" r="90" fill="#ffffff"/>
+    <path d="M -20 -55 L 20 -55 L 20 -20 L 55 -20 L 55 20 L 20 20 L 20 55 L -20 55 L -20 20 L -55 20 L -55 -20 L -20 -20 Z" fill="#e53935"/>
+    <!-- Paw inside cross -->
+    <circle cx="0" cy="0" r="10" fill="#ffffff"/>
+  </g>
+  <text x="400" y="440" font-family="'Segoe UI', sans-serif" font-size="40" font-weight="800" fill="#ffffff" text-anchor="middle">Resgate &amp; Reabilitação</text>
+  <text x="400" y="490" font-family="'Segoe UI', sans-serif" font-size="22" fill="#b3e5fc" text-anchor="middle">Socorro emergencial 24h e suporte veterinário</text>
+</svg>

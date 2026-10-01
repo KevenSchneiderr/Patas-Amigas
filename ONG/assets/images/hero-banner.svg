@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b5e20"/>
+      <stop offset="50%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#004d40"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="80%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffb74d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#heroGrad)"/>
+  <rect width="1200" height="600" fill="url(#sunGrad)"/>
+  <!-- Decorative background shapes -->
+  <circle cx="1100" cy="150" r="250" fill="#ffffff" opacity="0.05"/>
+  <circle cx="950" cy="450" r="180" fill="#ffffff" opacity="0.04"/>
+  <circle cx="150" cy="500" r="220" fill="#ffffff" opacity="0.03"/>
+  
+  <!-- Content overlay illustration -->
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="280" height="44" rx="22" fill="#f57c00" fill-opacity="0.9"/>
+    <text x="140" y="28" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">JUNTOS POR VIDAS INOCENTES</text>
+    <text x="0" y="110" font-family="'Segoe UI', sans-serif" font-size="56" font-weight="900" fill="#ffffff">Dê uma segunda chance</text>
+    <text x="0" y="170" font-family="'Segoe UI', sans-serif" font-size="56" font-weight="900" fill="#ffb74d">a quem só sabe amar.</text>
+    <text x="0" y="225" font-family="'Segoe UI', sans-serif" font-size="24" fill="#e8f5e9" max-width="600">Mais de 1.200 animais resgatados, cuidados e encaminhados para lares felizes.</text>
+    <text x="0" y="260" font-family="'Segoe UI', sans-serif" font-size="24" fill="#e8f5e9">Conheça nossas ações e faça parte dessa corrente do bem.</text>
+  </g>
+  <!-- Paw graphic in hero -->
+  <g transform="translate(850, 200) scale(2.2)" opacity="0.2" fill="#ffffff">
+    <ellipse cx="50" cy="65" rx="22" ry="18"/>
+    <circle cx="24" cy="35" r="10"/>
+    <circle cx="42" cy="22" r="11"/>
+    <circle cx="62" cy="22" r="11"/>
+    <circle cx="78" cy="35" r="10"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="card4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a1b9a"/>
+      <stop offset="100%" stop-color="#4a148c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#card4Grad)"/>
+  <circle cx="400" cy="240" r="140" fill="#ffffff" opacity="0.15"/>
+  <!-- Community / Hands Star -->
+  <g transform="translate(400, 240)">
+    <circle cx="0" cy="0" r="80" fill="#ffffff"/>
+    <circle cx="0" cy="-30" r="18" fill="#6a1b9a"/>
+    <path d="M -35 25 C -35 0 -15 -10 0 -10 C 15 -10 35 0 35 25 Z" fill="#6a1b9a"/>
+    <path d="M 0 -4 C 10 -4 18 5 18 15 C 18 25 0 35 0 35 C 0 35 -18 25 -18 15 C -18 5 -10 -4 0 -4 Z" fill="#ffb300"/>
+  </g>
+  <text x="400" y="440" font-family="'Segoe UI', sans-serif" font-size="40" font-weight="800" fill="#ffffff" text-anchor="middle">Voluntariado Ativo</text>
+  <text x="400" y="490" font-family="'Segoe UI', sans-serif" font-size="22" fill="#e1bee7" text-anchor="middle">Dedique seu tempo e faça a diferença na prática</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="card3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#card3Grad)"/>
+  <circle cx="400" cy="240" r="140" fill="#ffffff" opacity="0.15"/>
+  <!-- Shield and Checkmark -->
+  <g transform="translate(400, 240)">
+    <path d="M 0 -80 L 60 -50 L 60 20 C 60 70 0 100 0 100 C 0 100 -60 70 -60 20 L -60 -50 Z" fill="#ffffff"/>
+    <path d="M -25 10 L -8 30 L 30 -20" fill="none" stroke="#2e7d32" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="400" y="440" font-family="'Segoe UI', sans-serif" font-size="40" font-weight="800" fill="#ffffff" text-anchor="middle">Castração Solidária</text>
+  <text x="400" y="490" font-family="'Segoe UI', sans-serif" font-size="22" fill="#c8e6c9" text-anchor="middle">Controle populacional humanitário em comunidades</text>
+</svg>
